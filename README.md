@@ -35,6 +35,6 @@ $ docker kill -s HUP haproxy-da
 
 View [license information](https://raw.githubusercontent.com/haproxy/haproxy/master/LICENSE) for the software contained in this image.
 
-View [DeviceAlas license](https://deviceatlas.com/deviceatlas-haproxy-module) information.
+View [DeviceAtlas license](https://deviceatlas.com/deviceatlas-haproxy-module) information.
 
 As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
