@@ -7,8 +7,8 @@ LABEL Name HAProxy DeviceAtlas
 LABEL RUN /usr/bin/docker run -d -v /path/to/haproxy/config:/usr/local/etc/haproxy/config:ro IMAGE_NAME
 
 ENV HAPROXY_BRANCH 2.0
-ENV HAPROXY_MINOR 2.0.8
-ENV HAPROXY_SHA256 c37e1e8515ad6f9781a0ac336ca88787f3bb52252fb2bdad9919ba16323c280a
+ENV HAPROXY_MINOR 2.0.12
+ENV HAPROXY_SHA256 7fcf5adb21cd78c4161902f9fcc8d7fc97e1562319a992cbda884436ca9602fd
 ENV HAPROXY_SRC_URL http://www.haproxy.org/download
 ENV DEVICEATLAS_VERSION 2.1.5
 
