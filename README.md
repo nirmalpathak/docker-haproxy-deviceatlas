@@ -1,12 +1,12 @@
 # Docker HAProxy with DeviceAtlas
 
-Docker HAProxy with DeviceAtlas is a dockerized version of HAProxy with DeviceAtlas for device detection on web. The detailed information on how to compile and use DeviceAtlas HAProxy module is available [here](https://fossies.org/linux/haproxy/doc/DeviceAtlas-device-detection.txt).
+Docker HAProxy with DeviceAtlas is a dockerized version of HAProxy with DeviceAtlas for device detection on the web. The detailed information on how to compile and use DeviceAtlas HAProxy module is available [here](https://fossies.org/linux/haproxy/doc/DeviceAtlas-device-detection.txt).
 
-## Prerequiste
+## Prerequisite
 
 - Download HAProxy module of DeviceAtlas API & Data from their official [site](https://deviceatlas.com/deviceatlas-haproxy-module).
 
-- Copy/Save the DeviceAtlas API & Data files into **docker-haproxy-deviceatlas** directory for bulding Docker image.
+- Copy/Save the DeviceAtlas API & Data files into **docker-haproxy-deviceatlas** directory for building Docker image.
 
 
 ## Build the container
