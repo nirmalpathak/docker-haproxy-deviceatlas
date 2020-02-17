@@ -21,7 +21,7 @@ $ docker build -t haproxy-deviceatlas .
 $ docker run -d --name haproxy-da -v /path/to/haproxy/config:/usr/local/etc/haproxy/config:ro haproxy-deviceatlas
 ```
 
-You will also need to publish the ports your HAProxy is listening on to the host by specifying the `-p` option, for example `-p 8080:80` to publish port 8080 from the container host to port 80 in the container.
+You will also need to publish the ports where your HAProxy is listening on to the host by specifying the `-p` option, for example `-p 8080:80` to publish port 8080 of the container host to port 80 in the container.
 
 ### Reloading config
 
